@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-auto-animate><img src="./examples/assets/MongoDB_Logo_FullColorBlack_RGB-4td3yuxzjs.png" alt="mongoDB"><br>
+					 <br>
+					created by <a href="https://github.com/kolyamoloko">Novikau Mikalai</a>
+				</section>
+				<section>
+					<h2 class="r-fit-text">MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.</h2>
+					<h4>(Wikipedia)</h4>
+				</section>
+				<section >
+					<p><mark>NoSQL</mark> = Not only SQL</p>
+				</section>
+				<!--Not my-->
+
+				<section>
+					<section>
+						<h2>NoSQL DataBase</h2>
+					</section>
+					<section>
+						<h2>Key-Value</h2>
+						<ul><li><p>Redis</p></li>
+						<li><p>Dynamo</p></li>
+						<li><p>MemcacheDB</p></li>
+						<li><p>Voldemort</p></li></ul>
+					</section>
+					<section>
+						<h2>Document</h2>
+						<ul><li><p>MongoDB</p></li>
+						<li><p>CouchDB</p></li>
+						<li><p>Riak</p></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Wide Column</h2>
+						<ul><li><p>BigTable</p></li>
+							<li><p>Cassandra</p></li>
+							<li><p>Hbase</p></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Graph</h2>
+						<ul><li><p>Neo4j</p></li>
+							<li><p>InfiniteGraph</p></li>
+						</ul>
+					</section>
+				</section>
+
+			<section data-transition="slide" data-background="#3f3e42" section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h2>Why MongoDB?</h2>
+					<div class="r-hstack justify-center">
+						<div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="box4" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+					</div>
+				</section>
+				<section data-transition="slide" data-background="#4db33d" data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-hstack justify-center">
+						<div data-id="box1" data-auto-animate-delay="0" style="background: rgb(0, 204, 255); width: 200px; height: 100px; margin: 10px;">Speed (C++)</div>
+						<div data-id="box2" data-auto-animate-delay="0.15" style="background: magenta; width: 200px; height: 100px; margin: 10px;">Open-source</div>
+						<div data-id="box3" data-auto-animate-delay="0.3" style="background: rgb(4, 0, 255); width: 200px; height: 100px; margin: 10px;">Universal</div>
+						<div data-id="box4" data-auto-animate-delay="0.45" style="background: rgb(241, 193, 60); width: 200px; height: 100px; margin: 10px;">Simple</div>
+					</div>
+					<h2 style="margin-top: 20px;">Advantages of MongoDB</h2>
+				</section>
+				<section data-transition="slide" data-background="#4db33d">
+					<h2>Most popular databases January 2022</h2>
+					<img src="./examples/assets/Screenshot_4.jpg" alt="DATABASES2021">
+				</section>
+				<section data-transition="slide" data-background="#ebe7d5">
+					<h2>Document</h2>
+					<img src="./examples/assets/e7ygVKXaPcqcqCyvurAeUzAbmmREoA6p72V2.jpg" alt="">
+				</section>
+				<section>
+					<section id="fragments" data-transition="zoom" data-background="#c1bebc">
+						<h2>History MongoDB</h2>
+						<p></p>
+						<p class="fragment">MongoDB was founded in 2007 by Dwight Merriman, Eliot Horowitz and Kevin Ryan – the team behind DoubleClick.</p>
+						<p><span class="fragment">At the Internet advertising company DoubleClick (now owned by Google), the team developed and used many custom data stores to work around the shortcomings of existing databases. The business served 400,000 ads per second, but often struggled with both scalability and agility.</span> <span class="fragment"> Frustrated, the team was inspired to create a database that tackled the challenges it faced at DoubleClick.<span class="fragment highlight-red">This was when MongoDB was born.</span></span> </p>
+						</section>
+					</section>
+
+				<section data-transition="slide" data-background="#ebe7d5" data-background-transition="zoom">
+					<h2>What are the use cases for document databases?</h2>
+					<ul>
+						<li>Single view or data hub</li>
+						<li>Customer data management and personalization</li>
+						<li>Internet of Things (IoT) and time-series data</li>
+						<li>Product catalogs and content management</li>
+						<li>Payment processing</li>
+						<li>Mobile apps</li>
+						<li>Mainframe offload</li>
+						<li>Operational analytics</li>
+						<li>Real-time analytics</li>
+				</ul>
+				</section>
+
+				<section data-transition="slide" data-background="#3f3e42" data-background-transition="zoom">
+					<h2>How is MongoDB data stored?</h2>
+					<p>
+						MongoDB stores data in BSON (Binary JSON) documents.
+					</p>
+					<p>BSON simply stands for “Binary JSON,” and that’s exactly what it was invented to be. BSON’s binary structure encodes type and length information, which allows it to be parsed much more quickly.</p>
+
+				</section>
+				<section data-transition="slide" data-background-transition="zoom">
+					<h2>Comparison</h2>
+						<table>
+							<thead>
+								<tr>
+									<th></th>
+									<th><h2>JSON</h2></th>
+									<th><h2>BSON</h2></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Encoding</td>
+									<td>UTF-8 String</td>
+									<td>Binary</td>
+								</tr>
+								<tr>
+									<td>Data Support</td>
+									<td>String, Boolean, Number, Array</td>
+									<td>String, Boolean, Number (Integer, Float, Long, Decimal128...), Array, Date, Raw Binary</td>
+								</tr>
+								<tr>
+									<td>Readability</td>
+									<td>Human and Machine</td>
+									<td>Machine Only</td>
+								</tr>
+							</tbody>
+						</table>
+				</section>
+				<section data-transition="zoom" data-background="#c1bebc" data-background-transition="zoom">
+					<img src="./examples/assets/customers/062befb4bb212399c90091f5a2ba742a.jpg" alt="">
+				</section>
+				<section data-transition="zoom" data-background="#4db33d" data-background-transition="zoom">
+					<img src="./examples/assets/customers/1_AAX9_DyiFLH5oHRhE0Em5Q.jpeg" width="33%" alt="Steve Hoberman">
+					<p>Creator MongoDB: Steve Hoberman </p>
+				</section>
+				<section data-transition="zoom" data-background="#3F3E42" data-background-transition="zoom">
+					<h2>Thank you for your attention!
+					</h2>
+
+				</section>
+				
+				<!-- NOT My-->
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
